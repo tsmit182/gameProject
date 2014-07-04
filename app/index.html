@@ -23,26 +23,28 @@
   </head>
   <body>
 
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-
-        <li>Sass</li>
-
-
-        <li>Modernizr</li>
+    <div class="player">
+        <h1>Your Statistics</h1>
+        <p>Your Sanity</p>
+        <input type="text" id="playerSanity" value="100"/>
+        <p>Your Happiness</p>
+        <input type="text" id="playerHappiness" value="100"/>
+        <p>Your Health</p>
+        <input type="text" id="playerHealth" value="100"/>
+    </div>
 
 
-        <li>Bourbon & Neat</li>
-
-
-        <li>UnderscoreJS</li>
-
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
+    <div class="monster">
+        <h1>Your __'s Statistics</h1>
+    <select>
+      <option value="monsterAlien">Alien Brainslug</option>
+      <option value="monsterZombie">Zombie</option>
+      <option value="monsterEldritch">Eldritch Abomination</option>
+    </select>
+        <p>Your __'s Happiness </p>
+        <input type="text" id="monsterHappiness" value="100"/>
+        <p>Your __'s Health </p>
+        <input type="text" id="monsterHealth" value="100"/>
     </div>
 
     <!-- build:js scripts/vendor.js -->
